@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/codefii/codefii"><img src="https://poser.pugx.org/codefii/codefii/license" alt="License"></a>
 </p>
 
-## About Codefii
+## About Codefii PHP
 
 
 Codefii is a stunningly fast high-level  web framework that encourages rapid development and includes everything needed to create database-backed web applications.
