@@ -8,38 +8,26 @@
 
 ## About Codefii
 
+Codefii is a web application framework for PHP. It provides a beautifully expressive and easy to use tools for backend development and APIs.
 
-Codefii is a stunningly fast high-level  web framework that encourages rapid development and includes everything needed to create database-backed web applications.
+---
 
-Under the hood, codefii has a generic admin called **FiiA** that helps in managing database records. it's somewhat known as active admin.
-___
+## Introduction
 
+Codefii having two phrases **code** and **fii** (pronounced : fire 🔥 ) is a PHP framework for building website backend. It consists of approachable and easy to use libraries that helps you tackle complex problems with just few lines of codes.
 
+### 🔥 Community
 
-### Getting started
+Join the welcoming community of fellow Codefii developers on [Slack](http://codefii.slack.com).
 
-Before anything else, you need a copy of composer installed on local machine through [composer](http://getcomposer.org).For existing applications you can run the following:
+### 🚀 Contributing
 
-```
-composer create-project --prefer-dist codefii/codefii myApp
-```
+To contribute a **feature or idea** to Codefii, [create an issue](https://github.com/codefii/codefii/issues/new) explaining your idea.
 
-### Running your project
+### 🏫 Tutorials
 
-After a successful installation of the codefii components, the next thing is to navigate to your app directory and serve / run your app by using:
+The awesome Codefii community is always adding new tutorials and articles out there, [Learn Codefii](http://learn.codefii.com) is a great place to get started as a beginner.
 
-```
-cd myApp
-php fii --serve
-```
-then visit your browser and type:
-```
-localhost:8080
-```
-### Running App with a Dynamic Port
-```
-cd myApp
-php fii --serve --port=your_port_number
-```
-### Documentation
-The complete documentation is found on [Codefii Official Website](https://codefii.com/documentaion)
+### 👥 Backers
+
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/codefii#backer)]

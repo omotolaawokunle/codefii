@@ -34,5 +34,6 @@ class FiiAController extends Controller {
  }
   final public function ready(){
   View::render('System/Admin/landing/ready');
+    // echo $zipcode;
   }
 }
