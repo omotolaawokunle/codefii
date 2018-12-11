@@ -24,7 +24,7 @@
 	],
 	"require": {
 		"php": "^5.6 || ^7.0",
-		"codefii/cindy": "1.2",
+		"codefii/framework": "1.2",
 		"phpmailer/phpmailer": "^5.0",
 		"phpunit/phpunit": "3.7.*",
 		"twig/twig": "^2.0",
