@@ -1,13 +1,7 @@
 <?php
 namespace Codefii\Manager;
 class File {
-    private $supported_formats = array(
-        "image/png",
-        "image/jpeg",
-        "image/jpg",
-        "image/svg",
-        "image/gif"
-    );
+    private $supported_formats =[];
     public $file_name;
 
     public $file_type;
@@ -20,13 +14,14 @@ class File {
 
     public $isUploaded = false;
     
-    public function upload(array $file){
+    public function upload(array $file,array $supported_formats){
+        $this->supported_formats = $supported_formats;
         $file_values = array_values($file);
         $file_path = $file_values[0];
         $this->path = $file_path;
         $main_file = $file_values[1];
         if(is_array($main_file)){
-            if(in_array($main_file['type'],$this->supported_formats)){
+            if(in_array($main_file['type'],$this->getSupportedFormats())){
                 $this->file_name = $main_file['name'];
                 $this->file_type = $main_file['type'];
                 $this->file_temp = $main_file['temp'];
@@ -56,6 +51,9 @@ class File {
     }
     public function isUploaded(){
         return $this->isUploaded;
+    }
+    public function getSupportedFormats(){
+        return $this->supported_formats;
     }
 
    
